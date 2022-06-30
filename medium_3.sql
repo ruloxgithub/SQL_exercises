@@ -1,0 +1,8 @@
+#exercise_3
+"""
+Show patient_id and first_name from patients where their first_name start and ends with 's' and is atleast 6 characters long.
+"""
+
+SELECT patient_id, first_name FROM patients
+  WHERE first_name LIKE 's____%s';
+
